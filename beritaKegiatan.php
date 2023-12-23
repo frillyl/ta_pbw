@@ -97,14 +97,14 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="overlay"></div>
-                        <img src="./assets/images/image6.png" class="d-block w-100" alt="Image Carousel 1">
+                        <img src="./assets/images/image7.png" class="d-block w-100" alt="Image Carousel 1">
                     </div>
                 </div>
             </div>
 
             <div class="logo-and-text">
                 <div class="text-container">
-                    <h2 id="judul-penelitian">BERITA PENELITIAN</h2>
+                    <h2 id="judul-penelitian">BERITA KEGIATAN</h2>
                 </div>
             </div>
             <!-- CAROUSEL END -->

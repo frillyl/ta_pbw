@@ -2,14 +2,14 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-.overlay {
+/* .overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(96, 73, 114, 0.76);
-}
+} */
 
 .logo-and-text {
     position: absolute;
@@ -106,35 +106,13 @@ ul .dropdown-item:hover {
 }
 
 .text-container h2 {
-    font-family: 'Mulish';
-    color: #F583FF;
-    font-size: 50px;
-}
-
-.card-title {
-    font-family: 'Poppins';
-}
-
-.card-text {
-    font-family: 'Mulish';
-    text-align: justify;
-}
-
-.card-header {
-    font-family: 'Mulish';
-    color: #686A1B;
-}
-
-.col-lg-12 a {
-    text-decoration: none;
-    font-family: 'Mulish';
-    color: #8F3797;
-    font-size: 20px;
-    font-weight: bolder;
-}
-
-.card-img-top {
+    color: #FFF; 
+    letter-spacing: 3px; 
+    font-family:'Merriweather';
+    font-size: 64px;
     text-align: center;
+    letter-spacing: 20px;
+    transform: translate(5%, -30%);
 }
 
 center h3, th, td{
@@ -151,6 +129,7 @@ center h3, th, td{
     padding-bottom: 3px;
     border-bottom: 2px solid white;
     display: inline-block;
+
 }
 
 .center-table {
@@ -173,20 +152,27 @@ center h3, th, td{
     background: #000;
 }
 
-.col-lg-13 {
+.col-lg-12 h5 {
     color: #8F3797;
     font-family: Merriweather;
-    font-weight: 700;
-    border-bottom: 3px solid #8F3797;
+    /* border-bottom: 3px solid #8F3797; */
 }
 
 .organizational-structure {
-    background-color: pink; 
+    background-color: #F6E9F6; 
     padding: 30px;
     text-align: center;
     display: inline-block;
-    align-items: center;
-    justify-content: center;
-  }
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.00);
+    
+}
 
- 
+.garis {
+    display: inline-block;
+    height: 4px;
+    background-color: #8F3797;
+    flex-grow: 1;
+}
+
