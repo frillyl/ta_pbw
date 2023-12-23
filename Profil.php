@@ -29,13 +29,13 @@
 </head>
 
 <body>
-    <header data-bs-theme="light">
+<header data-bs-theme="light">
         <nav class="navbar navbar-expand-lg navbar-light border-bottom bg-white" data-bs-theme="light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.php"><img id="logo-lp" src="assets/images/logo.png">
                     <div class="text-container">
-                        <span id="above-logo"><b>LEMBAGA PENELITIAN</b></span>
-                        <span><b>UNIVERSITAS GUNADARMA</b></span>
+                        <span id="above-logo">LEMBAGA PENELITIAN</span>
+                        <span>UNIVERSITAS GUNADARMA</span>
                     </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,25 +44,25 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Beranda</a>
+                            <a class="nav-link" aria-current="page" href="index.php">Beranda</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Profil</a>
+                            <a class="nav-link" aria-current="page" href="Profil.php" style="color: #B642C0; border-bottom: 3px solid #B642C0; padding-bottom: 2px;">Profil</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link" href="berita.php" role="button" aria-haspopup="true" aria-expanded="false">
                                 Berita
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Kegiatan</a></li>
-                                <li><a class="dropdown-item" href="#">Penelitian</a></li>
+                                <li><a class="dropdown-item" href="beritaPenelitian.php">Penelitian</a></li>
+                                <li><a class="dropdown-item" href="beritaKegiatan.php">Kegiatan</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#">Unduh</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                                 Daftar Penerima
                             </a>
                             <ul class="dropdown-menu">
@@ -71,7 +71,7 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                                 Tautan
                             </a>
                             <ul class="dropdown-menu">

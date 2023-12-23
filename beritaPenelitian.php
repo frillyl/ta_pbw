@@ -97,32 +97,21 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="overlay"></div>
-                        <img src="./assets/images/image4.png" class="d-block w-100" alt="Image Carousel 1">
-                        <!-- </div>
-                    <div class="carousel-item">
-                        <img src="./assets/images/image2.jpg" class="d-block w-100" alt="Image Carousel 2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./assets/images/image3.jpg" class="d-block w-100" alt="Image Carousel 3">
-                    </div> -->
+                        <img src="./assets/images/image6.png" class="d-block w-100" alt="Image Carousel 1">
                     </div>
                 </div>
             </div>
 
             <div class="logo-and-text">
                 <div class="text-container">
-                    <h2>BERITA</h2>
+                    <h2 id="judul-penelitian">BERITA PENELITIAN</h2>
                 </div>
             </div>
             <!-- CAROUSEL END -->
 
             <!-- SECTION BERITA START -->
             <div class="container">
-                <div class="row mt-5 mb-3">
-                    <div class="col-lg-12">
-                        <h3 id="berita-penelitian" style="color: #8F3797;"><b>Berita Penelitian</b></h3>
-                    </div>
-                </div>
+                <div class="row mt-4 mb-3"></div>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="card">
@@ -164,28 +153,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mt-5">
-
-            <nav aria-label="Page navigation example">
-                <ul class="pagination justify-content-end">
-                    <li class="page-item disabled">
-                        <a class="page-link">Previous</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">Next</a>
-                    </li>
-                </ul>
-            </nav>
-
-                
-                <div class="container">
-                <div class="row mt-5 mb-3">
-                    <div class="col-lg-12">
-                        <h3 id="berita-kegiatan" style="color: #8F3797;"><b>Berita Kegiatan</b></h3>
-                    </div>
+                <div class="row mt-4 mb-3">
                     <div class="col-lg-4">
                         <div class="card">
                             <div class="card-header bg-white">
@@ -226,20 +194,22 @@
                         </div>
                     </div>
                 </div>
+                <div class="row mt-4 mb-3"></div>
 
             <nav aria-label="Page navigation example">
                 <ul class="pagination justify-content-end">
                     <li class="page-item disabled">
-                        <a class="page-link">Previous</a>
+                        <a class="page-link" href="#">
+                        <img src="./assets/images/left.png" alt="Previous" />
+                        </a>
                     </li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">Next</a>
+                        <a class="page-link" href="#">
+                        <img src="./assets/images/next.png" alt="Next" />
+                        </a>
                     </li>
                 </ul>
             </nav>
+            <div class="row mt-9 mb-8"></div>
             <!-- SECTION BERITA END -->
     </main>
 
