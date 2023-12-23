@@ -78,7 +78,6 @@
                                 <li><a class="dropdown-item" href="http://ejournal.gunadarma.ac.id">eJournal</a></li>
                                 <li><a class="dropdown-item" href="#">Pengumpulan Laporan</a></li>
                                 <li><a class="dropdown-item" href="#">Pengumpulan Proposal</a></li>
-                                <li><a class="dropdown-item" href="#">Pengumpulan Jurnal</a></li>
                             </ul>
                         </li>
                     </ul>
