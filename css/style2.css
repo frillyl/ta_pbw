@@ -1,0 +1,159 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(96, 73, 114, 0.76); /* Warna ungu dengan tingkat transparansi 0.5 */
+}
+
+.logo-and-text {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: left;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-wrap:nowrap;
+}
+
+.logo-and-text img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.vertical-line {
+    display: inline-block;
+    vertical-align: middle;
+    border-left: 5px solid #F7FFC8;;
+    height: 300px;
+    margin: 0 20px;
+}
+
+.text-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#logo-lp {
+    width: 70px; 
+    margin-left: 10px;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.text-container span{
+    display: flex;
+    font-size: smaller;
+    font-family: 'Libre Baskerville';
+}
+
+#above-logo {
+    font-size: large;
+    font-family: 'Libre Baskerville';
+}
+
+.nav-item {
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: black;
+    margin-right: 8px;
+}
+
+.dropdown-toggle:hover {
+    background-color: #B642C0;
+    color: white !important;
+}
+
+ul .dropdown-item:hover {
+    background-color: #B642C0;
+    color: white;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-menu {
+    right: 0;
+}
+
+.text-container h3 {
+    font-family: 'Mulish';
+    font-size: 47px;
+}
+
+.text-container h1 {
+    font-family: 'Public Sans';
+    font-size: 64px;
+    line-height: normal;
+}
+
+.text-container h2 {
+    font-family: 'Mulish';
+    color: #F583FF;
+    font-size: 50px;
+}
+
+.card-title {
+    font-family: 'Poppins';
+}
+
+.card-text {
+    font-family: 'Mulish';
+    text-align: justify;
+}
+
+.card-header {
+    font-family: 'Mulish';
+    color: #686A1B;
+}
+
+.col-lg-12 a {
+    text-decoration: none;
+    font-family: 'Mulish';
+    color: #8F3797;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.card-img-top {
+    text-align: center;
+}
+
+center h3, th, td{
+    font-family: 'Mulish';
+}
+
+.col-lg-3, .mb-2 {
+    font-family: 'Libre Baskerville';
+    color: white;
+}
+
+.col-lg-3 h5 {
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+}
+
+.center-table {
+    max-width: 60%;
+    margin: auto;
+}

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penelitian Gunadarma</title>
     <link rel="icon" href="assets/images/logo.png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
     <script src="javascript/style.js"></script>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -34,8 +34,8 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.php"><img id="logo-lp" src="assets/images/logo.png">
                     <div class="text-container">
-                        <span id="above-logo">LEMBAGA PENELITIAN</span>
-                        <span>UNIVERSITAS GUNADARMA</span>
+                        <span id="above-logo"><b>LEMBAGA PENELITIAN</b></span>
+                        <span><b>UNIVERSITAS GUNADARMA</b></span>
                     </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -86,6 +86,7 @@
         </nav>
     </header>
 
+
     <main>
         <!-- CAROUSEL START -->
         <div class="carousel-overlay">
@@ -93,7 +94,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="overlay"></div>
-                        <img src="./assets/images/image1.jpg" class="d-block w-100" alt="Image Carousel 1">
+                        <img src="./assets/images/image4.png" class="d-block w-100" alt="Image Carousel 1">
                         <!-- </div>
                     <div class="carousel-item">
                         <img src="./assets/images/image2.jpg" class="d-block w-100" alt="Image Carousel 2">
@@ -106,12 +107,8 @@
             </div>
 
             <div class="logo-and-text">
-                <img src="./assets/images/logo.png" width="300px" height="300px" alt="Logo UG">
-                <div class="vertical-line"></div>
                 <div class="text-container">
-                    <h3>Selamat Datang di Situs Resmi</h3>
-                    <h1><b>LEMBAGA PENELITIAN</b></h1>
-                    <h2>UNIVERSITAS GUNADARMA</h2>
+                    <h2 style="color: #FFF; letter-spacing: 3px;"> <b> BERITA</b></h2>
                 </div>
             </div>
             <!-- CAROUSEL END -->
@@ -120,7 +117,7 @@
             <div class="container">
                 <div class="row mt-5 mb-3">
                     <div class="col-lg-12">
-                        <h3>Berita Terkini</h3>
+                        <h3 style="color: #8F3797;"><b>Berita Penelitian</b></h3>
                     </div>
                 </div>
                 <div class="row">
@@ -129,7 +126,7 @@
                             <div class="card-header bg-white">
                                 Tanggal Upload Berita
                             </div>
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="./assets/images/image5.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title"><b>Judul Berita</b></h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -142,7 +139,7 @@
                             <div class="card-header bg-white">
                                 Tanggal Upload Berita
                             </div>
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="./assets/images/image5.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title"><b>Judul Berita</b></h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -155,7 +152,7 @@
                             <div class="card-header bg-white">
                                 Tanggal Upload Berita
                             </div>
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="./assets/images/image5.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title"><b>Judul Berita</b></h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -164,52 +161,85 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mt-3">
-                    <div class="col-lg-12">
-                        <a href="#">Tampilkan Semua Berita</a>
-                    </div>
-                </div>
-            </div>
-            <!-- SECTION BERITA END -->
+                <div class="row mt-5">
 
-            <!-- SECTION AGENDA START -->
-            <div class="container">
-                <div class="row mt-5 pt-5 mb-3">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-end">
+                    <li class="page-item disabled">
+                        <a class="page-link">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+
+                
+                <div class="container">
+                <div class="row mt-5 mb-3">
                     <div class="col-lg-12">
-                        <center>
-                            <h3><b>Kalender</b> Penelitian PTA 2023/2024</h3>
-                        </center>
+                        <h3 style="color: #8F3797;"><b>Berita Kegiatan</b></h3>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header bg-white">
+                                Tanggal Upload Berita
+                            </div>
+                            <img src="./assets/images/image5.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>Judul Berita</b></h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn" style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header bg-white">
+                                Tanggal Upload Berita
+                            </div>
+                            <img src="./assets/images/image5.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>Judul Berita</b></h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn" style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-header bg-white">
+                                Tanggal Upload Berita
+                            </div>
+                            <img src="./assets/images/image5.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>Judul Berita</b></h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn" style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <table class="table table-bordered center-table">
-                            <thead>
-                                <tr>
-                                    <th scope="col" style="text-align: center; background-color:#8F3797; color:#fff;">Tanggal</th>
-                                    <th scope="col" style="text-align: center; background-color:#8F3797; color:#fff">Kegiatan</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
-                                </tr>
-                                <tr>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
-                                </tr>
-                                <tr>
-                                    <td>Larry the Bird</td>
-                                    <td>@twitter</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-            <!-- SECTION AGENDA END -->
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-end">
+                    <li class="page-item disabled">
+                        <a class="page-link">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- SECTION BERITA END -->
     </main>
+
 
     <div class="container-fluid" style="background-color: #8F3797; color:#fff">
         <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">       
@@ -257,5 +287,4 @@
     </script>
     
 </body>
-
 </html>
