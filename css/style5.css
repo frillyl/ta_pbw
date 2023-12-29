@@ -1,7 +1,3 @@
-body {
-    font-family: "Montserrat", sans-serif;
-}
-
 .overlay {
     position: absolute;
     top: 0;
@@ -13,9 +9,9 @@ body {
 
 .logo-and-text {
     position: absolute;
-    top: 65%;
-    left: 40%;
-    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 23%;
+    transform: translate(-50%, -95%);
     z-index: 2;
     text-align: left;
     color: #fff;
@@ -106,39 +102,13 @@ ul .dropdown-item:hover {
 }
 
 .text-container h2 {
-    font-family: 'Mulish';
-    color: #F583FF;
-    font-size: 50px;
-}
-
-.card-title {
-    font-family: 'Poppins';
-}
-
-.card-text {
-    font-family: 'Mulish';
-    text-align: justify;
-}
-
-.card-text p {
-    color: black;
-}
-
-.card-header {
-    font-family: 'Mulish';
-    color: #686A1B;
-}
-
-.col-lg-12 a {
-    text-decoration: none;
-    font-family: 'Mulish';
-    color: #8F3797;
-    font-size: 20px;
-    font-weight: bolder;
-}
-
-.card-img-top {
+    color: #FFF; 
+    letter-spacing: 3px; 
+    font-family:'Merriweather';
+    font-size: 64px;
     text-align: center;
+    letter-spacing: 20px;
+
 }
 
 center h3, th, td{
@@ -150,21 +120,16 @@ center h3, th, td{
     color: white;
 }
 
-.col-lg-3 h5, .col-lg-12 h5 {
+.col-lg-3 h5 {
     text-decoration: none;
     padding-bottom: 3px;
     border-bottom: 2px solid white;
     display: inline-block;
-    font-size: 23px;
 }
 
-.col-lg-3 h6 {
-    font-size: 19px;
-}
- 
-.center-table {
-    max-width: 60%;
-    margin: auto;
+#judul-penelitian {
+    transform: translate(30%, 0%);
+    font-size: 55px;
 }
 
 .col-lg-3 li {
@@ -181,10 +146,6 @@ center h3, th, td{
 
 .col-lg-12 h3 {
     font-family: 'Mulish';
-}
-
-.card {
-    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
 .nav-item span.material-symbols-outlined {
@@ -207,6 +168,115 @@ center h3, th, td{
 .icon-text p{
     margin: 0;
     padding: 0;
+}
+
+.col-lg-3 h5, .col-lg-12 h5 {
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    font-size: 23px;
+}
+
+.container {
+    font-family: 'Mulish';
+}
+
+/* search bar */
+
+.form-control:focus {
+    outline: none;
+}
+
+.form-control:focus, .form-control.focus {
+    box-shadow: none !important;
+}
+
+.input-group {
+    border-bottom: 1px solid #000;
+    max-width: 250px;
+}
+
+.container-search {
+    display: flex;
+    justify-content: flex-end;
+}
+
+label.input-group-text {
+    font-size: 20px;
+}
+
+/* search bar ends here */
+
+/* table */
+.table th {
+    text-align: center;
+    font-size: 17px;
+    padding: 12px;
+    font-weight: bolder;
+}
+
+.table td {
+    text-align: center;
+    padding: 12px;
+}
+
+.center-table {
+    max-width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.center-table tr td {
+    border-bottom: 1px solid #000; 
+}
+
+.center-table tr th {
+    border-top: 1px solid #000; 
+    border-bottom: 2px solid #8F3797; 
+}
+
+.center-table a {
+    text-decoration: none;
+    color: #000;
+}
+/* table ends here */
+
+.pagination-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 73px;
+    margin-right: 70px;
+    font-family: 'Mulish';
+    margin-top: 10px;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 8px 5px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 4px;
+    font-family: 'Mulish';
+}
+
+.pagination a.page {
+    font-weight: bold;
+}
+
+.pagination .ellipsis {
+    margin: 0 6px;
+}
+
+.pagination a.previous,
+.pagination a.next {
+    color: #8F3797;
+}
+
+.pagination-info {
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 #scroll-to-top {

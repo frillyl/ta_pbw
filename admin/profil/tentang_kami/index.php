@@ -68,8 +68,8 @@ $result = mysqli_query($conn, "SELECT * FROM tb_tentang_kami JOIN tb_user ON tb_
                                 Daftar Penerima
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Dana</a></li>
-                                <li><a class="dropdown-item" href="#">Hibah</a></li>
+                                <li><a class="dropdown-item" href="dana.php">Dana</a></li>
+                                <li><a class="dropdown-item" href="hibah.php">Hibah</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">

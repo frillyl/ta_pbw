@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penelitian Gunadarma</title>
     <link rel="icon" href="assets/images/logo.png">
-    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style4.css">
     <script src="javascript/script.js"></script>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -34,8 +34,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Public+Sans:wght@600&display=swap"
         rel="stylesheet">
     <!-- Icon Footer -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,1,0" />
 </head>
 
 <body>
@@ -63,8 +62,7 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="berita.php" role="button" aria-haspopup="true"
-                                aria-expanded="false"
-                                style="color: #B642C0; border-bottom: 3px solid #B642C0; padding-bottom: 2px;">
+                                aria-expanded="false">
                                 Berita
                             </a>
                             <ul class="dropdown-menu">
@@ -73,7 +71,8 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="unduh.php">Unduh</a>
+                            <a class="nav-link" aria-current="page" href="unduh.php"
+                                style="color: #B642C0; border-bottom: 3px solid #B642C0; padding-bottom: 2px;">Unduh</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">
@@ -108,14 +107,14 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="overlay"></div>
-                        <img src="./assets/images/image7.png" class="d-block w-100" alt="Image Carousel 1">
+                        <img src="./assets/images/image10.png" class="d-block w-100" alt="Image Carousel 1">
                     </div>
                 </div>
             </div>
 
             <div class="logo-and-text">
                 <div class="text-container">
-                    <h2 id="judul-penelitian">BERITA KEGIATAN</h2>
+                    <h2 id="judul-penelitian">UNDUH</h2>
                 </div>
             </div>
             <!-- CAROUSEL END -->
@@ -123,120 +122,134 @@
             <!-- SECTION BERITA START -->
             <div class="container">
                 <div class="row mt-4 mb-3"></div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-header bg-white">
-                                Tanggal Upload Berita
-                            </div>
-                            <img src="./assets/images/image5.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><b>Judul Berita</b></h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn"
-                                    style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
-                            </div>
-                        </div>
+                <div class="container-search">
+                    <div class="input-group mb-3">
+                        <label class="input-group-text bg-transparent border-0" for="search">Cari : </label>
+                        <input type="text" class="form-control border-0" id="search">
+                        <a href="#" class="btn"><span class="material-symbols-outlined">search</span></a>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-header bg-white">
-                                Tanggal Upload Berita
-                            </div>
-                            <img src="./assets/images/image5.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><b>Judul Berita</b></h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn"
-                                    style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-header bg-white">
-                                Tanggal Upload Berita
-                            </div>
-                            <img src="./assets/images/image5.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><b>Judul Berita</b></h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn"
-                                    style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
-                            </div>
+                </div>
+            </div>
+            <div class="row mt-4 mb-3"></div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <table class="table center-table">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>Keterangan</th>
+                                <th>Pengupload</th>
+                                <th>Unduh</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td style="text-align: left">Contoh Loqbook Kegiatan Pengabdian Kepada Masyarakat</td>
+                                <td>IndahLP</td>
+                                <td>
+                                    <a href="#">Unduh disini</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td style="text-align: left">SK dan Nomor Kontrak Skema Produktif Tahap 2 Tahun 2023
+                                </td>
+                                <td>IndahLP</td>
+                                <td>
+                                    <a href="#">Unduh disini</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td style="text-align: left">Contoh Loqbook Kegiatan Pengabdian Kepada Masyarakat</td>
+                                <td>IndahLP</td>
+                                <td>
+                                    <a href="#">Unduh disini</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td style="text-align: left">Contoh Loqbook Kegiatan Pengabdian Kepada Masyarakat</td>
+                                <td>IndahLP</td>
+                                <td>
+                                    <a href="#">Unduh disini</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td style="text-align: left">Contoh Loqbook Kegiatan Pengabdian Kepada Masyarakat</td>
+                                <td>IndahLP</td>
+                                <td>
+                                    <a href="#">Unduh disini</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td style="text-align: left">Contoh Loqbook Kegiatan Pengabdian Kepada Masyarakat</td>
+                                <td>IndahLP</td>
+                                <td>
+                                    <a href="#">Unduh disini</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td style="text-align: left">Contoh Loqbook Kegiatan Pengabdian Kepada Masyarakat</td>
+                                <td>IndahLP</td>
+                                <td>
+                                    <a href="#">Unduh disini</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td style="text-align: left">Contoh Loqbook Kegiatan Pengabdian Kepada Masyarakat</td>
+                                <td>IndahLP</td>
+                                <td>
+                                    <a href="#">Unduh disini</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td style="text-align: left">Contoh Loqbook Kegiatan Pengabdian Kepada Masyarakat</td>
+                                <td>IndahLP</td>
+                                <td>
+                                    <a href="#">Unduh disini</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td style="text-align: left">Contoh Loqbook Kegiatan Pengabdian Kepada Masyarakat</td>
+                                <td>IndahLP</td>
+                                <td>
+                                    <a href="#">Unduh disini</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="pagination-container">
+                        <p class="pagination-info">Menampilkan 1 hingga 10 dari 140 dokumen</p>
+                        <div class="pagination">
+                            <a href="#" class="previous">Sebelumnya</a>
+                            <a href="#" class="page">1</a>
+                            <a href="#" class="page">2</a>
+                            <a href="#" class="page">3</a>
+                            <a href="#" class="page">4</a>
+                            <a href="#" class="page">5</a>
+                            <span class="ellipsis">...</span>
+                            <a href="#" class="page">15</a>
+                            <a href="#" class="next">Selanjutnya</a>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-4 mb-3">
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-header bg-white">
-                                Tanggal Upload Berita
-                            </div>
-                            <img src="./assets/images/image5.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><b>Judul Berita</b></h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn"
-                                    style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-header bg-white">
-                                Tanggal Upload Berita
-                            </div>
-                            <img src="./assets/images/image5.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><b>Judul Berita</b></h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn"
-                                    style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-header bg-white">
-                                Tanggal Upload Berita
-                            </div>
-                            <img src="./assets/images/image5.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><b>Judul Berita</b></h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn"
-                                    style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-4 mb-3"></div>
+                <div class="row mt-5 mb-6"></div>
+            </div>
+        </div>
+        <div id="scroll-to-top" title="Kembali ke atas">
+            <img src="./assets/images/arrow.png" alt="Arrow Up">
+        </div>
 
-                <nav aria-label="Page navigation example">
-                    <ul class="pagination justify-content-end">
-                        <li class="page-item disabled">
-                            <a class="page-link" href="#">
-                                <img src="./assets/images/left.png" alt="Previous" />
-                            </a>
-                        </li>
-                        <a class="page-link" href="#">
-                            <img src="./assets/images/next.png" alt="Next" />
-                        </a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="row mt-9 mb-8"></div>
-                <div id="scroll-to-top" title="Kembali ke atas">
-                    <img src="./assets/images/arrow.png" alt="Arrow Up">
-                </div>
-                <!-- SECTION BERITA END -->
+        <div class="row mt-9 mb-8"></div>
+        <!-- SECTION BERITA END -->
     </main>
 
 
