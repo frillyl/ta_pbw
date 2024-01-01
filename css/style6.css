@@ -102,12 +102,11 @@ ul .dropdown-item:hover {
 }
 
 .text-container h2 {
-    color: #FFF; 
-    letter-spacing: 3px; 
+    color: #FFF;  
     font-family:'Merriweather';
     font-size: 64px;
     text-align: center;
-    letter-spacing: 20px;
+    letter-spacing: 2px;
 
 }
 
