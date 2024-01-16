@@ -18,14 +18,16 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
     <!-- Google Font : Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- Google Font : Libre Baskerville -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <!-- Google Font : Mulish -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;700&display=swap" rel="stylesheet">
     <!-- Google Font : Public Sans -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@600&display=swap" rel="stylesheet">
@@ -52,7 +54,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.php">Beranda</a>
+                            <a class="nav-link" aria-current="page" href="index.php"
+                                style="color: #B642C0; border-bottom: 4px solid #B642C0; padding-bottom: 2px;">Beranda</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="Profil.php">Profil</a>
@@ -73,10 +76,10 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">
-                                Daftar Penerima
+                                Daftar Penerima Hibah
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="dana.php">Dana</a></li>
+                                <li><a class="dropdown-item" href="dana.php">Dana Padanan</a></li>
                                 <li><a class="dropdown-item" href="hibah.php">Hibah</a></li>
                             </ul>
                         </li>
@@ -105,132 +108,139 @@
                     <div class="carousel-item active">
                         <div class="overlay"></div>
                         <img src="./assets/images/image1.jpg" class="d-block w-100" alt="Image Carousel 1">
-                        <!-- </div>
-                    <div class="carousel-item">
-                        <img src="./assets/images/image2.jpg" class="d-block w-100" alt="Image Carousel 2">
                     </div>
                     <div class="carousel-item">
+                        <div class="overlay"></div>
+                        <img src="./assets/images/image2.jpeg" class="d-block w-100" alt="Image Carousel 2">
+                    </div>
+                    <div class="carousel-item">
+                        <div class="overlay"></div>
                         <img src="./assets/images/image3.jpg" class="d-block w-100" alt="Image Carousel 3">
-                    </div> -->
                     </div>
                 </div>
             </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2"></button>
+            </div>
+        </div>
 
-            <div class="logo-and-text">
-                <img src="./assets/images/logo.png" width="300px" height="300px" alt="Logo UG">
-                <div class="vertical-line"></div>
-                <div class="text-container">
-                    <h3>Selamat Datang di Situs Resmi</h3>
-                    <h1><b>LEMBAGA PENELITIAN</b></h1>
-                    <h2>UNIVERSITAS GUNADARMA</h2>
+        <div class="logo-and-text">
+            <img src="./assets/images/logo.png" width="300px" height="300px" alt="Logo UG">
+            <div class="vertical-line"></div>
+            <div class="text-container">
+                <h3>Selamat Datang di Situs Resmi</h3>
+                <h1><b>LEMBAGA PENELITIAN</b></h1>
+                <h2>UNIVERSITAS GUNADARMA</h2>
+            </div>
+        </div>
+        <!-- CAROUSEL END -->
+
+        <!-- SECTION BERITA START -->
+        <div class="container">
+            <div class="row mt-5 mb-3">
+                <div class="col-lg-12">
+                    <h3>Berita Terkini</h3>
                 </div>
             </div>
-            <!-- CAROUSEL END -->
-
-            <!-- SECTION BERITA START -->
-            <div class="container">
-                <div class="row mt-5 mb-3">
-                    <div class="col-lg-12">
-                        <h3>Berita Terkini</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-header bg-white">
-                                Tanggal Upload Berita
-                            </div>
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><b>Judul Berita</b></h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn"
-                                    style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
-                            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header bg-white">
+                            Tanggal Upload Berita
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-header bg-white">
-                                Tanggal Upload Berita
-                            </div>
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><b>Judul Berita</b></h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn"
-                                    style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-header bg-white">
-                                Tanggal Upload Berita
-                            </div>
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><b>Judul Berita</b></h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn"
-                                    style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
-                            </div>
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Judul Berita</b></h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn"
+                                style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-3">
-                    <div class="col-lg-12">
-                        <a href="#">Tampilkan Semua Berita</a>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header bg-white">
+                            Tanggal Upload Berita
+                        </div>
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Judul Berita</b></h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn"
+                                style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header bg-white">
+                            Tanggal Upload Berita
+                        </div>
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Judul Berita</b></h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn"
+                                style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- SECTION BERITA END -->
+            <div class="row mt-3">
+                <div class="col-lg-12">
+                    <a href="#">Tampilkan Semua Berita</a>
+                </div>
+            </div>
+        </div>
+        <!-- SECTION BERITA END -->
 
-            <!-- SECTION AGENDA START -->
-            <div class="container">
-                <div class="row mt-5 pt-5 mb-3">
-                    <div class="col-lg-12">
-                        <center>
-                            <h3><b>Kalender</b> Penelitian PTA 2023/2024</h3>
-                        </center>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <table class="table table-bordered center-table">
-                            <thead>
-                                <tr>
-                                    <th scope="col" style="text-align: center; background-color:#A439B5;; color:#fff;">
-                                        Tanggal</th>
-                                    <th scope="col" style="text-align: center; background-color:#A439B5;; color:#fff">
-                                        Kegiatan</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
-                                </tr>
-                                <tr>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
-                                </tr>
-                                <tr>
-                                    <td>Larry the Bird</td>
-                                    <td>@twitter</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+        <!-- SECTION AGENDA START -->
+        <div class="container">
+            <div class="row mt-5 pt-5 mb-3">
+                <div class="col-lg-12">
+                    <center>
+                        <h3>Kalender Penelitian <span>PTA 2023/2024</span></h3>
+                    </center>
                 </div>
             </div>
-            <div id="scroll-to-top" title="Kembali ke atas">
-                <img src="./assets/images/arrow.png" alt="Arrow Up">
+            <div class="row">
+                <div class="col-lg-12">
+                    <table class="table table-bordered table-hover table-striped center-table">
+                        <thead>
+                            <tr>
+                                <th scope="col" style="text-align: center; background-color:#A439B5;; color:#fff;">
+                                    Periode</th>
+                                <th scope="col" style="text-align: center; background-color:#A439B5;; color:#fff">
+                                    Agenda</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <td>Larry the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-            <!-- SECTION AGENDA END -->
+        </div>
+        <div id="scroll-to-top" title="Kembali ke atas">
+            <img src="./assets/images/arrow.png" alt="Arrow Up">
+        </div>
+        <!-- SECTION AGENDA END -->
     </main>
 
     <div class="container-fluid" style="background-color: #833A8A; color:#fff">

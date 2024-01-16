@@ -164,7 +164,10 @@ center h3, th, td{
 
 #berita-penelitian, #berita-kegiatan {
     font-family: 'Mulish';
-    font-weight: bold;
+}
+
+.form-control {
+    font-family: 'Mulish';
 }
 
 .col-lg-3 li, .col-lg-3 p {

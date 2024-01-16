@@ -18,14 +18,16 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
     <!-- Google Font : Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- Google Font : Libre Baskerville -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <!-- Google Font : Mulish -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- Google Font : Public Sans -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@600&display=swap" rel="stylesheet">
@@ -37,6 +39,7 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,1,0" />
 </head>
+
 
 <body>
     <header data-bs-theme="light">
@@ -64,7 +67,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="berita.php" role="button" aria-haspopup="true"
                                 aria-expanded="false"
-                                style="color: #B642C0; border-bottom: 3px solid #B642C0; padding-bottom: 2px;">
+                                style="color: #B642C0; border-bottom: 4px solid #B642C0; padding-bottom: 2px;">
                                 Berita
                             </a>
                             <ul class="dropdown-menu">
@@ -77,10 +80,10 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                Daftar Penerima
+                                Daftar Penerima Hibah
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="dana.php">Dana</a></li>
+                                <li><a class="dropdown-item" href="dana.php">Dana Padanan</a></li>
                                 <li><a class="dropdown-item" href="hibah.php">Hibah</a></li>
                             </ul>
                         </li>
@@ -134,7 +137,7 @@
                                 <h5 class="card-title"><b>Judul Berita</b></h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="#" class="btn"
+                                <a href="isiberita.php" class="btn"
                                     style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
                             </div>
                         </div>
@@ -149,7 +152,7 @@
                                 <h5 class="card-title"><b>Judul Berita</b></h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="#" class="btn"
+                                <a href="isiberita.php" class="btn"
                                     style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
                             </div>
                         </div>
@@ -164,7 +167,7 @@
                                 <h5 class="card-title"><b>Judul Berita</b></h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="#" class="btn"
+                                <a href="isiberita.php" class="btn"
                                     style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
                             </div>
                         </div>
@@ -181,7 +184,7 @@
                                 <h5 class="card-title"><b>Judul Berita</b></h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="#" class="btn"
+                                <a href="isiberita.php" class="btn"
                                     style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
                             </div>
                         </div>
@@ -196,7 +199,7 @@
                                 <h5 class="card-title"><b>Judul Berita</b></h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="#" class="btn"
+                                <a href="isiberita.php" class="btn"
                                     style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
                             </div>
                         </div>
@@ -211,7 +214,7 @@
                                 <h5 class="card-title"><b>Judul Berita</b></h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="#" class="btn"
+                                <a href="isiberita.php" class="btn"
                                     style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
                             </div>
                         </div>

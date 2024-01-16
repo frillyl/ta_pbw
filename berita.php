@@ -18,14 +18,16 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
     <!-- Google Font : Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- Google Font : Libre Baskerville -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <!-- Google Font : Mulish -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- Google Font : Public Sans -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@600&display=swap" rel="stylesheet">
@@ -64,7 +66,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="berita.php" role="button" aria-haspopup="true"
                                 aria-expanded="false"
-                                style="color: #B642C0; border-bottom: 3px solid #B642C0; padding-bottom: 2px;">
+                                style="color: #B642C0; border-bottom: 4px solid #B642C0; padding-bottom: 2px;">
                                 Berita
                             </a>
                             <ul class="dropdown-menu">
@@ -77,10 +79,10 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                Daftar Penerima
+                                Daftar Penerima Hibah
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="dana.php">Dana</a></li>
+                                <li><a class="dropdown-item" href="dana.php">Dana Padanan</a></li>
                                 <li><a class="dropdown-item" href="hibah.php">Hibah</a></li>
                             </ul>
                         </li>
@@ -130,6 +132,22 @@
             <!-- SECTION BERITA START -->
             <div class="container">
                 <div class="row mt-5 mb-3">
+                    <div class="tahun-section d-flex justify-content-end align-items-center">
+                        <div class="d-flex align-items-center">
+                            <h3 id="label-group" style="color: #8F3797; font-family: 'Mulish'"><b>Tahun :</b></h3>
+                            <div class="form-group" style="margin-bottom: 0; margin-left: 10px;">
+                                <select class="form-select tahun-dropdown" id="dropdown">
+                                    <option value="2023">2023</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2020">2020</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5 mb-3">
                     <div class="col-lg-12">
                         <h3 id="berita-penelitian" style="color: #8F3797;"><b>Berita Penelitian</b></h3>
                     </div>
@@ -145,7 +163,7 @@
                                 <h5 class="card-title"><b>Judul Berita</b></h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="#" class="btn"
+                                <a href="isiberita.php" class="btn"
                                     style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
                             </div>
                         </div>
@@ -160,7 +178,7 @@
                                 <h5 class="card-title"><b>Judul Berita</b></h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="#" class="btn"
+                                <a href="isiberita.php" class="btn"
                                     style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
                             </div>
                         </div>
@@ -175,98 +193,97 @@
                                 <h5 class="card-title"><b>Judul Berita</b></h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="#" class="btn"
+                                <a href="isiberita.php" class="btn"
                                     style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-5">
+
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-end">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#">
+                                <img src="./assets/images/left.png" alt="Previous" />
+                            </a>
+                        </li>
+                        <a class="page-link" href="#">
+                            <img src="./assets/images/next.png" alt="Next" />
+                        </a>
+                        </li>
+                    </ul>
+                </nav>
+
+
+                <div class="container">
+                    <div class="row mt-5 mb-3">
+                        <div class="col-lg-12">
+                            <h3 id="berita-kegiatan" style="color: #8F3797;"><b>Berita Kegiatan</b></h3>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    Tanggal Upload Berita
+                                </div>
+                                <img src="./assets/images/image5.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title"><b>Judul Berita</b></h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up the bulk of the card's content.</p>
+                                    <a href="#" class="btn"
+                                        style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    Tanggal Upload Berita
+                                </div>
+                                <img src="./assets/images/image5.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title"><b>Judul Berita</b></h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up the bulk of the card's content.</p>
+                                    <a href="#" class="btn"
+                                        style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    Tanggal Upload Berita
+                                </div>
+                                <img src="./assets/images/image5.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title"><b>Judul Berita</b></h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up the bulk of the card's content.</p>
+                                    <a href="#" class="btn"
+                                        style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <nav aria-label="Page navigation example">
                         <ul class="pagination justify-content-end">
                             <li class="page-item disabled">
-                                <a class="page-link">Previous</a>
+                                <a class="page-link" href="#">
+                                    <img src="./assets/images/left.png" alt="Previous" />
+                                </a>
                             </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                                <a class="page-link" href="#">Next</a>
+                            <a class="page-link" href="#">
+                                <img src="./assets/images/next.png" alt="Next" />
+                            </a>
                             </li>
                         </ul>
                     </nav>
-
-
-                    <div class="container">
-                        <div class="row mt-5 mb-3">
-                            <div class="col-lg-12">
-                                <h3 id="berita-kegiatan" style="color: #8F3797;"><b>Berita Kegiatan</b></h3>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="card">
-                                    <div class="card-header bg-white">
-                                        Tanggal Upload Berita
-                                    </div>
-                                    <img src="./assets/images/image5.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title"><b>Judul Berita</b></h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up the bulk of the card's content.</p>
-                                        <a href="#" class="btn"
-                                            style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="card">
-                                    <div class="card-header bg-white">
-                                        Tanggal Upload Berita
-                                    </div>
-                                    <img src="./assets/images/image5.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title"><b>Judul Berita</b></h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up the bulk of the card's content.</p>
-                                        <a href="#" class="btn"
-                                            style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="card">
-                                    <div class="card-header bg-white">
-                                        Tanggal Upload Berita
-                                    </div>
-                                    <img src="./assets/images/image5.png" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title"><b>Judul Berita</b></h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up the bulk of the card's content.</p>
-                                        <a href="#" class="btn"
-                                            style="background-color:#8F3797; color:#fff; font-family:'Poppins'">Selengkapnya</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <nav aria-label="Page navigation example">
-                            <ul class="pagination justify-content-end">
-                                <li class="page-item disabled">
-                                    <a class="page-link">Previous</a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">Next</a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <div id="scroll-to-top" title="Kembali ke atas">
-                            <img src="./assets/images/arrow.png" alt="Arrow Up">
-                        </div>
-                        <!-- SECTION BERITA END -->
+                    <div id="scroll-to-top" title="Kembali ke atas">
+                        <img src="./assets/images/arrow.png" alt="Arrow Up">
+                    </div>
+                    <!-- SECTION BERITA END -->
     </main>
 
 

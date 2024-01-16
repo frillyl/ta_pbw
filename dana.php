@@ -74,11 +74,11 @@
                             <a class="nav-link" aria-current="page" href="unduh.php">Unduh</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color: #B642C0; border-bottom: 3px solid #B642C0; padding-bottom: 2px;">
-                                Daftar Penerima
+                            <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color: #B642C0; border-bottom: 4px solid #B642C0; padding-bottom: 2px;">
+                                Daftar Penerima Hibah
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="dana.php">Dana</a></li>
+                                <li><a class="dropdown-item" href="dana.php">Dana Padanan</a></li>
                                 <li><a class="dropdown-item" href="hibah.php">Hibah</a></li>
                             </ul>
                         </li>
@@ -136,6 +136,7 @@
                         <thead>
                             <tr>
                                 <th>No</th>
+                                <th>Tahun</th>
                                 <th>Batch</th>
                                 <th style="text-align:left">Ketua Peneliti</th>
                                 <th>Judul</th>
@@ -144,18 +145,21 @@
                         <tbody>
                             <tr>
                                 <td>1</td>
+                                <td>2023</td>
                                 <td>2</td>
                                 <td style="text-align:left">Dyah Anggraini</td>
                                 <td style="text-align:left">Pengembangan Sistem Pelatihan Catur Berbasis Kecerdasan Artifisial untuk Pembinaan Pecatur Junior</td>
                             </tr>
                             <tr>
                                 <td>2</td>
+                                <td>2022</td>
                                 <td>2</td>
                                 <td style="text-align:left">Emirul Bahar</td>
                                 <td style="text-align:left">Aplikasi Bergerak Prediksi Kesehatan Janin Menggunakan Pembelajaran Mesin </td>
                             </tr>
                             <tr>
                                 <td>3</td>
+                                <td>2023</td>
                                 <td>3</td>
                                 <td style="text-align:left">Mohammad Iqbal</td>
                                 <td style="text-align:left">Pengembangan AI Autonomous Robot untuk Surveillance & Advertising pada Layanan Publik</td>

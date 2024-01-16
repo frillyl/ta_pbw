@@ -7,7 +7,7 @@
     <title>Penelitian Gunadarma</title>
     <link rel="icon" href="assets/images/logo.png">
     <link rel="stylesheet" href="css/style3.css">
-    <script src="javascript/style.js"></script>
+    <script src="javascript/script.js"></script>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -60,7 +60,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="Profil.php"
-                                style="color: #B642C0; border-bottom: 3px solid #B642C0; padding-bottom: 2px;">Profil</a>
+                                style="color: #B642C0; border-bottom: 4px solid #B642C0; padding-bottom: 2px;">Profil</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="berita.php" role="button" aria-haspopup="true"
@@ -77,10 +77,10 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                Daftar Penerima
+                                Daftar Penerima Hibah
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="dana.php">Dana</a></li>
+                                <li><a class="dropdown-item" href="dana.php">Dana Padanan</a></li>
                                 <li><a class="dropdown-item" href="hibah.php">Hibah</a></li>
                             </ul>
                         </li>
@@ -149,8 +149,8 @@
                             ipsum velit congue quis eu. Ultricies nulla donec turpis odio est a vitae ultrices. Bibendum
                             arcu blandit quisque adipiscing cursus tellus bibendum morbi. Volutpat lectus orci tincidunt
                             enim.
+                        </p>
                     </div>
-                    </p>
                     <div class="row">
                         <div class="col-lg-12 text-center d-flex align-items-center">
                             <h5 class="fs-2 me-3">Misi</h5>
@@ -175,14 +175,14 @@
                             </div>
                         </div>
                     </div>
-                    <div id="scroll-to-top" title="Kembali ke atas">
-                        <img src="./assets/images/arrow.png" alt="Arrow Up">
-                    </div>
+                </div>
 
-                    <!--PROFIL END-->
+                <!--PROFIL END-->
 
     </main>
-
+    <div id="scroll-to-top" title="Kembali ke atas">
+        <img src="./assets/images/arrow.png" alt="Arrow Up">
+    </div>
 
     <div class="container-fluid" style="background-color: #833A8A; color:#fff">
         <footer class="row-cols-1 py-5 my-5 border-top">

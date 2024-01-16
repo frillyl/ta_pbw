@@ -169,6 +169,11 @@ center h3, th, td{
     
 }
 
+.organizational-structure img {
+    width: 952px;
+    height: 425px;
+}
+
 .garis {
     display: inline-block;
     height: 4px;

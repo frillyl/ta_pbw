@@ -36,6 +36,10 @@
     <!-- Icon Footer -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,1,0" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ca4544eb3e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+
 </head>
 
 <body>
@@ -64,7 +68,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="berita.php" role="button" aria-haspopup="true"
                                 aria-expanded="false"
-                                style="color: #B642C0; border-bottom: 3px solid #B642C0; padding-bottom: 2px;">
+                                style="color: #B642C0; border-bottom: 4px solid #B642C0; padding-bottom: 2px;">
                                 Berita
                             </a>
                             <ul class="dropdown-menu">
@@ -77,10 +81,10 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                Daftar Penerima
+                                Daftar Penerima Hibah
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="dana.php">Dana</a></li>
+                                <li><a class="dropdown-item" href="dana.php">Dana Padanan</a></li>
                                 <li><a class="dropdown-item" href="hibah.php">Hibah</a></li>
                             </ul>
                         </li>
@@ -108,7 +112,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="overlay"></div>
-                        <img src="./assets/images/jurnal1.png" class="d-block w-100" alt="Image Carousel 1">
+                        <img src="./assets/images/image13.png" class="d-block w-100" alt="Image Carousel 1">
                         <!-- </div>
                     <div class="carousel-item">
                         <img src="./assets/images/image2.jpg" class="d-block w-100" alt="Image Carousel 2">
@@ -122,39 +126,128 @@
 
             <div class="logo-and-text">
                 <div class="text-container">
-                    <h2 id="judul-penelitian">Insentif Artikel Ilmiah dan Kekayaan Intelektual (KI) untuk Dosen Vokasi Tahun 2023</h2>
+                    <h2 id="judul-penelitian">Insentif Artikel Ilmiah dan Kekayaan Intelektual (KI) untuk Dosen Vokasi
+                        Tahun 2023</h2>
                 </div>
             </div>
             <!-- CAROUSEL END -->
 
             <!-- SECTION BERITA START -->
-            <div id="main-image">
-            <img src="./assets/images/image5.png" alt="Gambar 1" id="gambar1" width="40%" height="40%" >
-            </div>
-            <div id="deskripsi">
-            <p>Lorem ipsum dolor sit amet consectetur. Magna tellus phasellus libero maecenas turpis maecenas id feugiat habitant. Nisl tristique sed netus facilisis orci tellus condimentum. Posuere sed tincidunt tempor dui eleifend in aliquam. Et etiam fames habitant morbi. Risus malesuada in arcu aenean urna urna posuere. Tortor urna netus tortor senectus. Mattis in pulvinar ac aliquam ut consectetur eleifend. Commodo est eu mus felis consectetur nisl. Sed orci eget enim massa urna. Ultrices mattis in cursus tincidunt et proin vel tempus eu.
+            <div class="container">
+                <div class="row">
+                    <div id="main-image" class="mt-6">
+                        <img src="./assets/images/image5.png" alt="Gambar 1" id="gambar1" width="40%" height="40%">
+                    </div>
+                    <div id="deskripsi">
+                        <p>Lorem ipsum dolor sit amet consectetur. Magna tellus phasellus libero maecenas turpis
+                            maecenas id
+                            feugiat habitant. Nisl tristique sed netus facilisis orci tellus condimentum. Posuere sed
+                            tincidunt
+                            tempor dui eleifend in aliquam. Et etiam fames habitant morbi. Risus malesuada in arcu
+                            aenean urna
+                            urna posuere. Tortor urna netus tortor senectus. Mattis in pulvinar ac aliquam ut
+                            consectetur
+                            eleifend. Commodo est eu mus felis consectetur nisl. Sed orci eget enim massa urna. Ultrices
+                            mattis
+                            in cursus tincidunt et proin vel tempus eu.
 
-                Ut in bibendum mauris sed risus in ut ut. Porta donec dui adipiscing lobortis euismod rhoncus aliquam id. Pellentesque facilisis lobortis habitant mauris mauris auctor facilisis et. Viverra mauris ornare nibh et. Sed ultrices orci lacinia vitae netus turpis aliquam mauris turpis.
-                
-                Et nisl neque sed pulvinar ipsum ornare eget risus. Diam dolor urna nulla enim amet. Magna vulputate consequat elit integer in. Tempor lacus tortor a non. In duis odio cum est ornare. Nunc ac sollicitudin ultrices vel justo diam mi quis lorem. Nisl sit tellus commodo in vivamus cursus. Ac lectus sed magna aliquam donec sapien. Id non nec non tincidunt. Egestas pulvinar pellentesque varius facilisi enim sit id. Feugiat felis arcu viverra hac. Turpis pretium tortor scelerisque faucibus consequat neque pellentesque felis. Lacinia phasellus elementum sit aliquam at sed velit mi hendrerit. Id lacus nunc ultricies ultrices fringilla nisl et et.
-                
-                Nunc eu in iaculis sodales eu amet habitasse molestie bibendum. Odio risus quis aliquam at posuere massa. Porttitor porta urna purus etiam nec commodo risus. Lorem dolor turpis turpis nec diam placerat. Pretium accumsan tempus etiam venenatis. Quisque vitae ultricies ultricies duis luctus. Mauris metus fusce amet nunc sit fermentum rutrum id. Ut nec ultricies volutpat euismod id pretium tellus massa. Quis gravida nisi amet volutpat netus volutpat nunc magna. Etiam at et fermentum duis ridiculus sed. Fringilla amet pellentesque convallis risus tortor.
-                
-                Ultricies consequat enim aliquam velit quis varius neque sit. Egestas id lectus nunc ipsum morbi. Ipsum sed et elementum id. Pharetra lacinia dictumst pharetra ultricies felis elementum. Morbi et id non aliquet tempus faucibus elit. Placerat eu risus pellentesque elementum.
-                
-                Turpis amet platea bibendum sed nibh laoreet. Enim elementum fermentum odio risus eget. Nibh facilisi tincidunt sed massa odio. Volutpat nunc aliquam quisque orci. Tortor purus tortor suspendisse scelerisque ac feugiat posuere. Condimentum convallis sed quis in mauris. Et euismod lectus egestas non quam. Felis pellentesque aliquet nibh et tellus aenean leo volutpat urna. Sed purus fermentum enim sit ipsum tortor turpis. Vitae tincidunt id ut eget. Ultrices elit aliquet id convallis magna dui ac. Ultrices id fermentum sed est amet sed. Lobortis arcu nisl purus lectus faucibus pulvinar ac urna duis. Libero ultrices mollis habitasse lacus etiam id suspendisse velit.</p>
+                            Ut in bibendum mauris sed risus in ut ut. Porta donec dui adipiscing lobortis euismod
+                            rhoncus
+                            aliquam id. Pellentesque facilisis lobortis habitant mauris mauris auctor facilisis et.
+                            Viverra
+                            mauris ornare nibh et. Sed ultrices orci lacinia vitae netus turpis aliquam mauris turpis.
+
+                            Et nisl neque sed pulvinar ipsum ornare eget risus. Diam dolor urna nulla enim amet. Magna
+                            vulputate
+                            consequat elit integer in. Tempor lacus tortor a non. In duis odio cum est ornare. Nunc ac
+                            sollicitudin ultrices vel justo diam mi quis lorem. Nisl sit tellus commodo in vivamus
+                            cursus. Ac
+                            lectus sed magna aliquam donec sapien. Id non nec non tincidunt. Egestas pulvinar
+                            pellentesque
+                            varius facilisi enim sit id. Feugiat felis arcu viverra hac. Turpis pretium tortor
+                            scelerisque
+                            faucibus consequat neque pellentesque felis. Lacinia phasellus elementum sit aliquam at sed
+                            velit mi
+                            hendrerit. Id lacus nunc ultricies ultrices fringilla nisl et et.
+
+                            Nunc eu in iaculis sodales eu amet habitasse molestie bibendum. Odio risus quis aliquam at
+                            posuere
+                            massa. Porttitor porta urna purus etiam nec commodo risus. Lorem dolor turpis turpis nec
+                            diam
+                            placerat. Pretium accumsan tempus etiam venenatis. Quisque vitae ultricies ultricies duis
+                            luctus.
+                            Mauris metus fusce amet nunc sit fermentum rutrum id. Ut nec ultricies volutpat euismod id
+                            pretium
+                            tellus massa. Quis gravida nisi amet volutpat netus volutpat nunc magna. Etiam at et
+                            fermentum duis
+                            ridiculus sed. Fringilla amet pellentesque convallis risus tortor.
+
+                            Ultricies consequat enim aliquam velit quis varius neque sit. Egestas id lectus nunc ipsum
+                            morbi.
+                            Ipsum sed et elementum id. Pharetra lacinia dictumst pharetra ultricies felis elementum.
+                            Morbi et id
+                            non aliquet tempus faucibus elit. Placerat eu risus pellentesque elementum.
+
+                            Turpis amet platea bibendum sed nibh laoreet. Enim elementum fermentum odio risus eget. Nibh
+                            facilisi tincidunt sed massa odio. Volutpat nunc aliquam quisque orci. Tortor purus tortor
+                            suspendisse scelerisque ac feugiat posuere. Condimentum convallis sed quis in mauris. Et
+                            euismod
+                            lectus egestas non quam. Felis pellentesque aliquet nibh et tellus aenean leo volutpat urna.
+                            Sed
+                            purus fermentum enim sit ipsum tortor turpis. Vitae tincidunt id ut eget. Ultrices elit
+                            aliquet id
+                            convallis magna dui ac. Ultrices id fermentum sed est amet sed. Lobortis arcu nisl purus
+                            lectus
+                            faucibus pulvinar ac urna duis. Libero ultrices mollis habitasse lacus etiam id suspendisse
+                            velit.
+                        </p>
+                    </div>
+
+                    <div id="gallery">
+                        <img src="./assets/images/berita1.png" class="gallery-image">
+                        <img src="./assets/images/berita2.png" class="gallery-image">
+                        <img src="./assets/images/berita3.png" class="gallery-image">
+                    </div>
                 </div>
-        
-    
-        <div id="gallery">
-            <img src="./assets/images/berita1.png"  class="gallery-image">
-            <img src="./assets/images/berita2.png"  class="gallery-image">
-            <img src="./assets/images/berita3.png"  class="gallery-image">
-        </div>
-            
-                        <!-- SECTION BERITA END -->
+            </div>
+            <hr>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-auto">
+                        <a href="#" class="btn"
+                            style="background-color:#8F3797; color:#fff; font-family:'Poppins'">SHARE <i
+                                class="fa-solid fa-share-nodes"></i></a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="#" style="color: #501855;text-decoration:none"><i class="fa-regular fa-eye custom-icon"></i>172</a>
+                    </div>
+                    <div class="col">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-end">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#">
+                                        <img src="./assets/images/left.png" alt="Previous" />
+                                    </a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">
+                                        <img src="./assets/images/next.png" alt="Next" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- SECTION BERITA END -->
     </main>
 
+    <div id="scroll-to-top" title="Kembali ke atas">
+        <img src="./assets/images/arrow.png" alt="Arrow Up">
+    </div>
 
     <div class="container-fluid" style="background-color: #833A8A; color:#fff">
         <footer class="row-cols-1 py-5 my-5 border-top">

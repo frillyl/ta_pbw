@@ -196,6 +196,10 @@ center h3, th, td{
     max-width: 250px;
 }
 
+.label-group {
+    max-width: 300px;
+}
+
 .container-search {
     display: flex;
     justify-content: flex-end;

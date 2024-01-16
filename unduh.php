@@ -72,14 +72,14 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="unduh.php"
-                                style="color: #B642C0; border-bottom: 3px solid #B642C0; padding-bottom: 2px;">Unduh</a>
+                                style="color: #B642C0; border-bottom: 4px solid #B642C0; padding-bottom: 2px;">Unduh</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                Daftar Penerima
+                                Daftar Penerima Hibah
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="dana.php">Dana</a></li>
+                                <li><a class="dropdown-item" href="dana.php">Dana Padanan</a></li>
                                 <li><a class="dropdown-item" href="hibah.php">Hibah</a></li>
                             </ul>
                         </li>

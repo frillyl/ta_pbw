@@ -74,11 +74,11 @@
                             <a class="nav-link" aria-current="page" href="unduh.php">Unduh</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color: #B642C0; border-bottom: 3px solid #B642C0; padding-bottom: 2px;">
-                                Daftar Penerima
+                            <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color: #B642C0; border-bottom: 4px solid #B642C0; padding-bottom: 2px;">
+                                Daftar Penerima Hibah
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="dana.php">Dana</a></li>
+                                <li><a class="dropdown-item" href="dana.php">Dana Padanan</a></li>
                                 <li><a class="dropdown-item" href="hibah.php">Hibah</a></li>
                             </ul>
                         </li>
@@ -136,15 +136,17 @@
                         <thead>
                             <tr>
                                 <th>No</th>
+                                <th>Tahun</th>
                                 <th>Keterangan</th>
                                 <th>Skema Penelitian</th>
                                 <th>Judul Penelitian</th>
-                                <th>Ketua Penelitian</th>
+                                <th>Ketua Peneliti</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>1</td>
+                                <td>2023</td>
                                 <td>Baru</td>
                                 <td style="text-align:left">PDD/Dosen Pemula</td>
                                 <td style="text-align:left">Pemanfaatan Teknologi Digital untuk Meningkatkan Daya Saing UMKM Kota Depok </td>
@@ -152,6 +154,7 @@
                             </tr>
                             <tr>
                                 <td>2</td>
+                                <td>2023</td>
                                 <td>Baru</td>
                                 <td style="text-align:left">PFR</td>
                                 <td style="text-align:left">Model Pengembangan Wisata Lansia (Elderly Tourism) dengan Mengangkat Kearifan Lokal dan Ekonomi Kreatif di Indonesia </td>
@@ -159,6 +162,7 @@
                             </tr>
                             <tr>
                                 <td>3</td>
+                                <td>2023</td>
                                 <td>Baru</td>
                                 <td style="text-align:left">PDD/Dosen Pemula</td>
                                 <td style="text-align:left">Pemanfaatan Teknologi Digital untuk Meningkatkan Daya Saing UMKM Kota Depok </td>
